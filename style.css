@@ -1,0 +1,179 @@
+:root {
+    --color-1: rgb(128, 0, 0);
+    --color-2: rgb(128, 83, 0);
+    --color-3: rgb(128, 128, 0);
+    --color-4: rgb(0, 128, 0);
+    --color-5: rgb(0, 128, 128);
+    --color-6: rgb(0, 0, 128);
+    --color-7: rgb(128, 0, 128);
+}
+
+h3:first-child {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+
+.text-box > div > p {
+    color: red;
+}
+
+.text-box > p:not([class='yellow']){
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.table {
+    text-indent: 25px;
+}
+
+.table-body > .table-body-row:nth-child(1) > .table-body-row-item:nth-child(1) {
+    color: var(--color-1);
+}
+
+.table-body > .table-body-row:nth-child(2) > .table-body-row-item:nth-child(2) {
+    color: var(--color-1);
+}
+
+.table-body > .table-body-row:nth-child(3) > .table-body-row-item:nth-child(3) {
+    color: var(--color-1);
+}
+
+.table-body > .table-body-row:nth-child(4) > .table-body-row-item:nth-child(4) {
+    color: var(--color-1);
+}
+
+.table-body > .table-body-row:nth-child(5) > .table-body-row-item:nth-child(5) {
+    color: var(--color-1);
+}
+/* first color */
+
+.table-body > .table-body-row:nth-child(2) > .table-body-row-item:nth-child(1) {
+    color: var(--color-2);
+}
+
+.table-body > .table-body-row:nth-child(3) > .table-body-row-item:nth-child(2) {
+    color: var(--color-2);
+}
+
+.table-body > .table-body-row:nth-child(4) > .table-body-row-item:nth-child(3) {
+    color: var(--color-2);
+}
+
+.table-body > .table-body-row:nth-child(5) > .table-body-row-item:nth-child(4) {
+    color: var(--color-2);
+}
+
+.table-body > .table-body-row:nth-child(6) > .table-body-row-item:nth-child(5) {
+    color: var(--color-2);
+}
+/* second color */
+
+.table-body > .table-body-row:nth-child(3) > .table-body-row-item:nth-child(1) {
+    color: var(--color-3);
+}
+
+.table-body > .table-body-row:nth-child(4) > .table-body-row-item:nth-child(2) {
+    color: var(--color-3);
+}
+
+.table-body > .table-body-row:nth-child(5) > .table-body-row-item:nth-child(3) {
+    color: var(--color-3);
+}
+
+.table-body > .table-body-row:nth-child(6) > .table-body-row-item:nth-child(4) {
+    color: var(--color-3);
+}
+
+.table-body > .table-body-row:nth-child(7) > .table-body-row-item:nth-child(5) {
+    color: var(--color-3);
+}
+/* third color */
+
+.table-body > .table-body-row:nth-child(4) > .table-body-row-item:nth-child(1) {
+    color: var(--color-4);
+}
+
+.table-body > .table-body-row:nth-child(5) > .table-body-row-item:nth-child(2) {
+    color: var(--color-4);
+}
+
+.table-body > .table-body-row:nth-child(6) > .table-body-row-item:nth-child(3) {
+    color: var(--color-4);
+}
+
+.table-body > .table-body-row:nth-child(7) > .table-body-row-item:nth-child(4) {
+    color: var(--color-4);
+}
+
+.table-body > .table-body-row:nth-child(1) > .table-body-row-item:nth-child(5) {
+    color: var(--color-4);
+}
+/* fourth color */
+
+.table-body > .table-body-row:nth-child(5) > .table-body-row-item:nth-child(1) {
+    color: var(--color-5);
+}
+
+.table-body > .table-body-row:nth-child(6) > .table-body-row-item:nth-child(2) {
+    color: var(--color-5);
+}
+
+.table-body > .table-body-row:nth-child(7) > .table-body-row-item:nth-child(3) {
+    color: var(--color-5);
+}
+
+.table-body > .table-body-row:nth-child(1) > .table-body-row-item:nth-child(4) {
+    color: var(--color-5);
+}
+
+.table-body > .table-body-row:nth-child(2) > .table-body-row-item:nth-child(5) {
+    color: var(--color-5);
+}
+/* fifth color */
+
+.table-body > .table-body-row:nth-child(6) > .table-body-row-item:nth-child(1) {
+    color: var(--color-6);
+}
+
+.table-body > .table-body-row:nth-child(7) > .table-body-row-item:nth-child(2) {
+    color: var(--color-6);
+}
+
+.table-body > .table-body-row:nth-child(1) > .table-body-row-item:nth-child(3) {
+    color: var(--color-6);
+}
+
+.table-body > .table-body-row:nth-child(2) > .table-body-row-item:nth-child(4) {
+    color: var(--color-6);
+}
+
+.table-body > .table-body-row:nth-child(3) > .table-body-row-item:nth-child(5) {
+    color: var(--color-6);
+}
+/* sixth color */
+
+.table-body > .table-body-row:nth-child(7) > .table-body-row-item:nth-child(1) {
+    color: var(--color-7);
+}
+
+.table-body > .table-body-row:nth-child(1) > .table-body-row-item:nth-child(2) {
+    color: var(--color-7);
+}
+
+.table-body > .table-body-row:nth-child(2) > .table-body-row-item:nth-child(3) {
+    color: var(--color-7);
+}
+
+.table-body > .table-body-row:nth-child(3) > .table-body-row-item:nth-child(4) {
+    color: var(--color-7);
+}
+
+.table-body > .table-body-row:nth-child(4) > .table-body-row-item:nth-child(5) {
+    color: var(--color-7);
+}
+/* seventh color */
